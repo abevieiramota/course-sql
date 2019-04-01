@@ -1,0 +1,7 @@
+-- 1.
+-- O índice foi criado sobre a coluna, que é timestamp
+--    sendo estruturado para lidar com timestamps
+--    com o filtro operando sobre a coluna::date, o índice não pode ser utilizado
+--    >> soluções
+--       - usar o sql 2
+--       - criar um índice funcional sobre coluna::date
